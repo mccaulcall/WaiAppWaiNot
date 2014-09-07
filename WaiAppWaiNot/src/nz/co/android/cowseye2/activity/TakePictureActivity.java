@@ -33,7 +33,7 @@ import android.widget.FrameLayout;
  */
 public class TakePictureActivity  extends ActionBarActivity {
 
-	private Button backButton;
+	//private Button backButton;
 	private Button captureButton;
 	private Preview preview;
 	private boolean pictureTaken = false;
@@ -51,7 +51,7 @@ public class TakePictureActivity  extends ActionBarActivity {
 
 	public void setupUI(){
 		captureButton = (Button)findViewById(R.id.capture_image_button);
-		backButton = (Button)findViewById(R.id.backButton);
+		//backButton = (Button)findViewById(R.id.backButton);
 
 
 		display = ((WindowManager)getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
@@ -59,12 +59,12 @@ public class TakePictureActivity  extends ActionBarActivity {
 		FrameLayout previewFrameLayout = ((FrameLayout) findViewById(R.id.previewFrameLayout));
 		previewFrameLayout.addView(preview);
 		captureButton.setOnClickListener(new CaptureOnClickListener());
-		backButton.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				endActivityUnsuccessfully();
-			}
-		});
+//		backButton.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//				endActivityUnsuccessfully();
+//			}
+//		});
 	}
 
 
