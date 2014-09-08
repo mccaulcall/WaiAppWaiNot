@@ -5,6 +5,8 @@ import java.util.List;
 
 import nz.co.android.cowseye2.R;
 import nz.co.android.cowseye2.common.Constants;
+import nz.co.android.cowseye2.fragments.DescriptionFragment;
+import nz.co.android.cowseye2.fragments.NavigationDrawerFragment;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;

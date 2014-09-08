@@ -3,6 +3,7 @@ package nz.co.android.cowseye2.activity;
 import nz.co.android.cowseye2.R;
 import nz.co.android.cowseye2.RiverWatchApplication;
 import nz.co.android.cowseye2.event.SubmissionEventBuilder;
+import nz.co.android.cowseye2.fragments.NavigationDrawerFragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;

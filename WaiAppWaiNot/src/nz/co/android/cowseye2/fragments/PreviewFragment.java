@@ -1,10 +1,12 @@
-package nz.co.android.cowseye2.activity;
+package nz.co.android.cowseye2.fragments;
 
 import java.io.IOException;
 
 import com.google.android.gms.maps.model.LatLng;
 
 import nz.co.android.cowseye2.R;
+import nz.co.android.cowseye2.activity.DescriptionActivity;
+import nz.co.android.cowseye2.activity.PreviewActivity;
 import nz.co.android.cowseye2.event.SubmissionEventBuilder;
 import nz.co.android.cowseye2.utility.Utils;
 import android.app.Activity;

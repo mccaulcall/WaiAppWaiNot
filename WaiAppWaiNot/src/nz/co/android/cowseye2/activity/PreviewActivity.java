@@ -12,6 +12,8 @@ import nz.co.android.cowseye2.event.GetIncidentsEvent;
 import nz.co.android.cowseye2.event.SubmissionEvent;
 import nz.co.android.cowseye2.event.SubmissionEventBuilder;
 import nz.co.android.cowseye2.event.SubmissionEventBuilderException;
+import nz.co.android.cowseye2.fragments.NavigationDrawerFragment;
+import nz.co.android.cowseye2.fragments.PreviewFragment;
 import nz.co.android.cowseye2.service.GetIncidentsAsyncTask;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;

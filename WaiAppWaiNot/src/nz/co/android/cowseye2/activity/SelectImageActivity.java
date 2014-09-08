@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import nz.co.android.cowseye2.R;
 import nz.co.android.cowseye2.common.Constants;
+import nz.co.android.cowseye2.fragments.NavigationDrawerFragment;
 import nz.co.android.cowseye2.fragments.SelectImageFragment;
 import nz.co.android.cowseye2.utility.AlertBuilder;
 import nz.co.android.cowseye2.utility.Utils;

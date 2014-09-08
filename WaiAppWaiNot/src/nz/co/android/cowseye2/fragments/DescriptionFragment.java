@@ -1,6 +1,7 @@
-package nz.co.android.cowseye2.activity;
+package nz.co.android.cowseye2.fragments;
 
 import nz.co.android.cowseye2.R;
+import nz.co.android.cowseye2.activity.DescriptionActivity;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;

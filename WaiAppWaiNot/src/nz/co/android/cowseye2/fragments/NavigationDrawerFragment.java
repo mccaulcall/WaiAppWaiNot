@@ -1,4 +1,4 @@
-package nz.co.android.cowseye2.activity;
+package nz.co.android.cowseye2.fragments;
 
 import nz.co.android.cowseye2.R;
 import android.app.Activity;
